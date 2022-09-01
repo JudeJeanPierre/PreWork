@@ -67,17 +67,37 @@ const newAlien = () => {
     // console.log(newalien)
     alienShips.push(newalien)
 }
+// alien 1
+console.log(alienShips);
+newAlien()
+// alien 2
+console.log(alienShips);
+newAlien()
+// alien 3
+console.log(alienShips);
+newAlien()
+// alien 4
+console.log(alienShips);
+newAlien()
+// alien 5
+console.log(alienShips);
+newAlien()
+// alien 6
 console.log(alienShips);
 newAlien()
 
-// console.log(alienShips);
+console.log(alienShips);
+
 let buttonAttack = document.querySelector("button")
 buttonAttack.addEventListener('click', attack)
 
 function attack(){
     if (USSHelloWorld.hull <= 0 || alienShips.hull <= 0){
-        return document.querySelector("button").disabled = true
+        // return document.querySelector("button").disabled = true
 
+        alienShips.shift()
+        let opponent = document.querySelector(".alien1")
+        opponent.remove()
     } 
     if (USSHelloWorld.accuracy > alienShips[0].accuracy){
         USSHelloWorld.hull -= alienShips[0].firepower;
