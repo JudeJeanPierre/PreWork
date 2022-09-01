@@ -4,3 +4,41 @@ body{
     text-align: center;
 }
 
+.alienShips{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.alien1{
+    border: solid lawngreen;
+    border-radius: 15px;
+    width: 100px;
+    height: 18vh;
+    background-image: url("https://cdn.s7.shopdisney.eu/is/image/DisneyStoreES/461022779785-3?fmt=jpeg&qlt=90&wid=652&hei=652&defaultImage=no-image-image_uk");
+    background-size: contain;
+    
+}
+
+.btnContainer{
+    border: solid red;
+    width: 100px;
+    height: 100px;
+    background-image: url("https://media0.giphy.com/media/PqjTdvXImZQfcmTYEO/giphy.gif");
+    background-size: contain;
+    margin-top: 25%;
+    margin-left: 45%;
+    
+}
+.btnAttack{
+width: 100px;
+margin-top: 80px;
+background-color: black;
+background-size: 100p;
+border: darkgray;
+border-radius: 10px;
+color: limegreen;
+font-weight: bold;
+cursor: pointer;
+
+}

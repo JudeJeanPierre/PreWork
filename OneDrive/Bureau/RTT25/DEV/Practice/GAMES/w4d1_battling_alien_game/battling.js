@@ -116,11 +116,11 @@ function attack(){
     }
 }
     
-    // console.log("Attack");
+    console.log("Attack");
     
     
     
-    console.log(USSHelloWorld, alienShips[0]);
+    // console.log(USSHelloWorld, alienShips);
     
     
     
